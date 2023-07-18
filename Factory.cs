@@ -56,17 +56,17 @@ class ShapeDraw //Factory function since it is generating the classes that imple
 
 public class FactoryProgramme
 {
-    public static void Main()
-    {
-        ShapeDraw shapeDraw = new ShapeDraw();
+    //public static void Main()
+    //{
+    //    ShapeDraw shapeDraw = new ShapeDraw();
 
-        IDraw drawingTriangle = shapeDraw.Shape("Triangle");
-        drawingTriangle.Draw();
+    //    IDraw drawingTriangle = shapeDraw.Shape("Triangle");
+    //    drawingTriangle.Draw();
 
-        IDraw drawingCircle = shapeDraw.Shape("Circle");
-        drawingCircle.Draw();
+    //    IDraw drawingCircle = shapeDraw.Shape("Circle");
+    //    drawingCircle.Draw();
 
-        IDraw drawingRectangle = shapeDraw.Shape("Rectangle");
-        drawingRectangle.Draw();
-    }
+    //    IDraw drawingRectangle = shapeDraw.Shape("Rectangle");
+    //    drawingRectangle.Draw();
+    //}
 }
