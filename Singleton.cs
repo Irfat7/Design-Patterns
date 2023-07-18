@@ -21,14 +21,14 @@ class SingleObject
         Console.WriteLine("Hello world");
     }
 }
-class Programme
+class SingletonProgramme
 {
-    public static void Main(string[] args)
-    {
-        //get the object
-        SingleObject singleObject = SingleObject.getInstance();
+    //public static void Main(string[] args)
+    //{
+    //    //get the object
+    //    SingleObject singleObject = SingleObject.getInstance();
 
-        //call the print function
-        singleObject.Print();
-    }
+    //    //call the print function
+    //    singleObject.Print();
+    //}
 }
